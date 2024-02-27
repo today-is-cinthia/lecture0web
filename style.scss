@@ -1,0 +1,13 @@
+$color:plum;
+
+%container
+{
+    background-color: plum;
+    font-size: large;
+    margin: 20px;
+}
+
+.card
+{
+@extend %container
+}
